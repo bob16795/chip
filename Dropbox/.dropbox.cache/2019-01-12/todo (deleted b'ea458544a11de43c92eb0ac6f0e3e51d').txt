@@ -1,0 +1,6 @@
+(G) go thru scripts +documents @git
+(A) Midterm work +homework @de due:2019-01-14
+(A) Paragraph +homework @ela due:2019-01-12
+x 2019-01-11 2019-01-11 none @ss pri:Z
+(B) 2019-01-11 math +homework @math due:2019-01-14
+(B) 2019-01-11 Lab +homework lab due:2019-01-14
