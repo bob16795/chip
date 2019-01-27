@@ -1,0 +1,24 @@
+name hanging
+category Package
+revision 15878
+shortdesc Hanging paragraphs.
+longdesc The hanging package facilitates the typesetting of hanging
+longdesc paragraphs. The package also enables typesetting with hanging
+longdesc punctuation, by making punctuation characters active. This
+longdesc facility is best suppressed (it can interfere with other
+longdesc packages) -- there are package options for suppressing each
+longdesc individual punctuation character. 'Real' attempts at hanging
+longdesc punction should nowadays use the microtype package, which takes
+longdesc advantage of the support offered in recent versions of pdfTeX.
+containersize 1936
+containermd5 1ef6468b7e810b641fec0f7e90873e0f
+doccontainersize 145544
+doccontainermd5 f45b0855153783fa947d985eaaca9b50
+srccontainersize 7908
+srccontainermd5 a8bf9bb5a0aa1b1477cbc7735b8c5241
+runfiles size=2
+ tex/latex/hanging/hanging.sty
+catalogue-ctan /macros/latex/contrib/hanging
+catalogue-date 2013-09-30 14:43:32 +0200
+catalogue-license lppl1.3
+catalogue-version 1.2b

@@ -1,0 +1,12 @@
+Xsession: X session started for chip at Fri Jan 25 17:17:27 UTC 2019
+localuser:chip being added to access control list
+/home/chip/scr/dwm_launch.sh: line 4: jgmenu: command not found
+warning: no locale support
+no locale support
+sh: line 0: cd: /home/chip/.dwm: No such file or directory
+sh: ./autostart_blocking.sh: No such file or directory
+sh: line 0: cd: /home/chip/.dwm: No such file or directory
+sh: ./autostart.sh: No such file or directory
+Name Lost. Is Another notification daemon running?
+XIO:  fatal IO error 4 (Interrupted system call) on X server ":0"
+      after 2800 requests (2800 known processed) with 0 events remaining.

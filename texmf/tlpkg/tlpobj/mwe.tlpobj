@@ -1,0 +1,104 @@
+name mwe
+category Package
+revision 26422
+shortdesc Packages and image files for MWEs.
+longdesc The bundle provides several files useful when creating a
+longdesc minimal working example (MWE). The package itself loads a small
+longdesc set of packages often used when creating MWEs. In addition, a
+longdesc range of images are provided, which will be installed in the
+longdesc TEXMF tree, so that they may be used in any (La)TeX document.
+longdesc This allows different users to share MWEs which include image
+longdesc commands, without the need to share image files or to use
+longdesc replacement code.
+containersize 687052
+containermd5 aa5297700a4eaef9923a4db4302ea5db
+doccontainersize 393380
+doccontainermd5 a52642c2ab1e50389ba83f8793df4c53
+srccontainersize 7144
+srccontainermd5 694fb6614883aa20c1a3aed597889c01
+runfiles size=443
+ tex/latex/mwe/example-grid-100x100bp.eps
+ tex/latex/mwe/example-grid-100x100bp.jpg
+ tex/latex/mwe/example-grid-100x100bp.pdf
+ tex/latex/mwe/example-grid-100x100bp.png
+ tex/latex/mwe/example-grid-100x100bp.tex
+ tex/latex/mwe/example-grid-100x100pt.eps
+ tex/latex/mwe/example-grid-100x100pt.jpg
+ tex/latex/mwe/example-grid-100x100pt.pdf
+ tex/latex/mwe/example-grid-100x100pt.png
+ tex/latex/mwe/example-grid-100x100pt.tex
+ tex/latex/mwe/example-image-10x16.eps
+ tex/latex/mwe/example-image-10x16.jpg
+ tex/latex/mwe/example-image-10x16.pdf
+ tex/latex/mwe/example-image-10x16.png
+ tex/latex/mwe/example-image-10x16.tex
+ tex/latex/mwe/example-image-16x10.eps
+ tex/latex/mwe/example-image-16x10.jpg
+ tex/latex/mwe/example-image-16x10.pdf
+ tex/latex/mwe/example-image-16x10.png
+ tex/latex/mwe/example-image-16x10.tex
+ tex/latex/mwe/example-image-16x9.eps
+ tex/latex/mwe/example-image-16x9.jpg
+ tex/latex/mwe/example-image-16x9.pdf
+ tex/latex/mwe/example-image-16x9.png
+ tex/latex/mwe/example-image-16x9.tex
+ tex/latex/mwe/example-image-1x1.eps
+ tex/latex/mwe/example-image-1x1.jpg
+ tex/latex/mwe/example-image-1x1.pdf
+ tex/latex/mwe/example-image-1x1.png
+ tex/latex/mwe/example-image-1x1.tex
+ tex/latex/mwe/example-image-4x3.eps
+ tex/latex/mwe/example-image-4x3.jpg
+ tex/latex/mwe/example-image-4x3.pdf
+ tex/latex/mwe/example-image-4x3.png
+ tex/latex/mwe/example-image-4x3.tex
+ tex/latex/mwe/example-image-9x16.eps
+ tex/latex/mwe/example-image-9x16.jpg
+ tex/latex/mwe/example-image-9x16.pdf
+ tex/latex/mwe/example-image-9x16.png
+ tex/latex/mwe/example-image-9x16.tex
+ tex/latex/mwe/example-image-a.eps
+ tex/latex/mwe/example-image-a.jpg
+ tex/latex/mwe/example-image-a.pdf
+ tex/latex/mwe/example-image-a.png
+ tex/latex/mwe/example-image-a.tex
+ tex/latex/mwe/example-image-a3-landscape.pdf
+ tex/latex/mwe/example-image-a3-landscape.tex
+ tex/latex/mwe/example-image-a3.pdf
+ tex/latex/mwe/example-image-a3.tex
+ tex/latex/mwe/example-image-a4-landscape.pdf
+ tex/latex/mwe/example-image-a4-landscape.tex
+ tex/latex/mwe/example-image-a4.pdf
+ tex/latex/mwe/example-image-a4.tex
+ tex/latex/mwe/example-image-a5-landscape.pdf
+ tex/latex/mwe/example-image-a5-landscape.tex
+ tex/latex/mwe/example-image-a5.pdf
+ tex/latex/mwe/example-image-a5.tex
+ tex/latex/mwe/example-image-b.eps
+ tex/latex/mwe/example-image-b.jpg
+ tex/latex/mwe/example-image-b.pdf
+ tex/latex/mwe/example-image-b.png
+ tex/latex/mwe/example-image-b.tex
+ tex/latex/mwe/example-image-c.eps
+ tex/latex/mwe/example-image-c.jpg
+ tex/latex/mwe/example-image-c.pdf
+ tex/latex/mwe/example-image-c.png
+ tex/latex/mwe/example-image-c.tex
+ tex/latex/mwe/example-image-golden-upright.pdf
+ tex/latex/mwe/example-image-golden-upright.tex
+ tex/latex/mwe/example-image-golden.pdf
+ tex/latex/mwe/example-image-golden.tex
+ tex/latex/mwe/example-image-letter-landscape.pdf
+ tex/latex/mwe/example-image-letter-landscape.tex
+ tex/latex/mwe/example-image-letter.pdf
+ tex/latex/mwe/example-image-letter.tex
+ tex/latex/mwe/example-image.eps
+ tex/latex/mwe/example-image.jpg
+ tex/latex/mwe/example-image.pdf
+ tex/latex/mwe/example-image.png
+ tex/latex/mwe/example-image.tex
+ tex/latex/mwe/mwe.sty
+catalogue-ctan /macros/latex/contrib/mwe
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl1.3
+catalogue-version 0.3

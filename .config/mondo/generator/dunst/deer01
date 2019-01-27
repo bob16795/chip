@@ -83,7 +83,7 @@
 
 [urgency_normal]
     background = "#010102"
-    foreground = "#%%color_bg"
+    foreground = "#010102"
     timeout = 5
 
 [urgency_critical]

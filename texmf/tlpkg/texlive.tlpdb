@@ -1,0 +1,850 @@
+name 00texlive.installation
+category TLCore
+depend setting_available_architectures:
+depend opt_location:ftp://tug.org/historic/systems/texlive/2015/tlnet-final
+depend setting_usertree:1
+
+name arydshln
+category Package
+revision 40087
+shortdesc Draw dash-lines in array/tabular
+longdesc Definitions of horizontal and vertical dashed lines for the
+longdesc array and tabular environment. Horizontal lines are drawn by
+longdesc \hdashline and \cdashline while vertical ones can be specified
+longdesc as a part of preamble using ':'. The shape of dashed lines may
+longdesc be controlled through style parameters or optional arguments.
+longdesc The package is compatible with array and colortab.
+containersize 9216
+containermd5 8c6c4f962e681473394e379f8a911be8
+doccontainersize 832504
+doccontainermd5 52039d2aac24bb22c8987c8d5d634cac
+srccontainersize 51500
+srccontainermd5 fba135ec95c7d0a2b962c92cb87c1328
+runfiles size=12
+ tex/latex/arydshln/arydshln.sty
+catalogue-ctan /macros/latex/contrib/arydshln
+catalogue-date 2016-03-20 10:40:58 +0100
+catalogue-license lppl1
+catalogue-topics alignment-supp
+catalogue-version 1.72
+
+name bbding
+category Package
+revision 17186
+shortdesc A symbol (dingbat) font and LaTeX macros for its use.
+longdesc A symbol font (distributed as Metafont source) that contains
+longdesc many of the symbols of the Zapf dingbats set, together with an
+longdesc NFSS interface for using the font. An Adobe Type 1 version of
+longdesc the fonts is available in the niceframe fonts bundle.
+containersize 11668
+containermd5 b0bd738d1c9181469147322b6fde4e12
+doccontainersize 437588
+doccontainermd5 9cc43230fca5178b9688b64046256754
+srccontainersize 10156
+srccontainermd5 3ecf18b7ed35e34c5533e3eb4ea3e23e
+runfiles size=24
+ fonts/source/public/bbding/bbding10.mf
+ fonts/tfm/public/bbding/bbding10.tfm
+ tex/latex/bbding/Uding.fd
+ tex/latex/bbding/bbding.sty
+catalogue-ctan /fonts/bbding
+catalogue-date 2014-04-06 17:50:10 +0200
+catalogue-license lppl
+catalogue-version 1.01
+
+name biblatex
+category Package
+revision 39966
+shortdesc Bibliographies in LaTeX using BibTeX for sorting only
+longdesc BibLaTeX is a complete reimplementation of the bibliographic
+longdesc facilities provided by LaTeX in conjunction with BibTeX. It
+longdesc redesigns the way in which LaTeX interacts with BibTeX at a
+longdesc fairly fundamental level. With BibLaTeX, BibTeX is only used
+longdesc (if it is used at all) to sort the bibliography and to generate
+longdesc labels. Formatting of the bibliography is entirely controlled
+longdesc by TeX macros (the BibTeX-based mechanism embeds some parts of
+longdesc formatting in the BibTeX style file. Good working knowledge in
+longdesc LaTeX should be sufficient to design new bibliography and
+longdesc citation styles; nothing related to BibTeX's language is
+longdesc needed. In fact, users need not remain bound to BibTeX for use
+longdesc with BibLaTeX: an alternative bibliography processor biblatex-
+longdesc biber is available. Development of BibLaTeX and biblatex-biber
+longdesc is closely coupled; the present release of BibLaTeX is designed
+longdesc to work with biblatex-biber version 0.9.6. The package needs e-
+longdesc TeX, and uses the author's etoolbox and logreq packages. For
+longdesc users of biblatex-biber, version 0.9 is required (at least;
+longdesc refer to the notes for the version of biblatex-biber that you
+longdesc are using). Apart from the features unique to BibLaTeX, the
+longdesc package also incorporates core features of the following
+longdesc packages: babelbib, bibtopic, bibunits, chapterbib, cite,
+longdesc inlinebib, mcite and mciteplus, mlbib, multibib, splitbib.
+longdesc BibLaTeX supports split bibliographies and multiple
+longdesc bibliographies within one document, and separate lists of
+longdesc bibliographic shorthands. Bibliographies may be subdivided into
+longdesc parts (by chapter, by section, etc.) and/or segmented by topics
+longdesc (by type, by keyword, etc.). BibLaTeX is fully localized and
+longdesc can interface with the babel.
+containersize 182840
+containermd5 18b0966c02db0afdc0b239aa234ef8e1
+doccontainersize 6859604
+doccontainermd5 2378989f424f70fa23f26c6c1e52c5d9
+runfiles size=586
+ bibtex/bib/biblatex/biblatex/biblatex-examples.bib
+ bibtex/bib/biblatex/biblatex/biblatex-examples.bltxml
+ bibtex/bst/biblatex/biblatex.bst
+ bibtex/csf/biblatex/latin1.csf
+ bibtex/csf/biblatex/latin1_at.csf
+ bibtex/csf/biblatex/latin1_de.csf
+ bibtex/csf/biblatex/latin1_dk.csf
+ bibtex/csf/biblatex/latin1_fi.csf
+ bibtex/csf/biblatex/latin1_no.csf
+ bibtex/csf/biblatex/latin1_se.csf
+ bibtex/csf/biblatex/latin9.csf
+ bibtex/csf/biblatex/latin9_at.csf
+ bibtex/csf/biblatex/latin9_de.csf
+ bibtex/csf/biblatex/latin9_dk.csf
+ bibtex/csf/biblatex/latin9_fi.csf
+ bibtex/csf/biblatex/latin9_no.csf
+ bibtex/csf/biblatex/latin9_se.csf
+ bibtex/csf/biblatex/winansi.csf
+ bibtex/csf/biblatex/winansi_at.csf
+ bibtex/csf/biblatex/winansi_de.csf
+ bibtex/csf/biblatex/winansi_dk.csf
+ bibtex/csf/biblatex/winansi_fi.csf
+ bibtex/csf/biblatex/winansi_no.csf
+ bibtex/csf/biblatex/winansi_se.csf
+ tex/latex/biblatex/bbx/alphabetic-verb.bbx
+ tex/latex/biblatex/bbx/alphabetic.bbx
+ tex/latex/biblatex/bbx/authortitle-comp.bbx
+ tex/latex/biblatex/bbx/authortitle-ibid.bbx
+ tex/latex/biblatex/bbx/authortitle-icomp.bbx
+ tex/latex/biblatex/bbx/authortitle-tcomp.bbx
+ tex/latex/biblatex/bbx/authortitle-terse.bbx
+ tex/latex/biblatex/bbx/authortitle-ticomp.bbx
+ tex/latex/biblatex/bbx/authortitle.bbx
+ tex/latex/biblatex/bbx/authoryear-comp.bbx
+ tex/latex/biblatex/bbx/authoryear-ibid.bbx
+ tex/latex/biblatex/bbx/authoryear-icomp.bbx
+ tex/latex/biblatex/bbx/authoryear.bbx
+ tex/latex/biblatex/bbx/debug.bbx
+ tex/latex/biblatex/bbx/draft.bbx
+ tex/latex/biblatex/bbx/numeric-comp.bbx
+ tex/latex/biblatex/bbx/numeric-verb.bbx
+ tex/latex/biblatex/bbx/numeric.bbx
+ tex/latex/biblatex/bbx/reading.bbx
+ tex/latex/biblatex/bbx/standard.bbx
+ tex/latex/biblatex/bbx/verbose-ibid.bbx
+ tex/latex/biblatex/bbx/verbose-inote.bbx
+ tex/latex/biblatex/bbx/verbose-note.bbx
+ tex/latex/biblatex/bbx/verbose-trad1.bbx
+ tex/latex/biblatex/bbx/verbose-trad2.bbx
+ tex/latex/biblatex/bbx/verbose-trad3.bbx
+ tex/latex/biblatex/bbx/verbose.bbx
+ tex/latex/biblatex/biblatex.cfg
+ tex/latex/biblatex/biblatex.sty
+ tex/latex/biblatex/biblatex_.def
+ tex/latex/biblatex/biblatex_.sty
+ tex/latex/biblatex/biblatex_legacy.def
+ tex/latex/biblatex/biblatex_legacy.sty
+ tex/latex/biblatex/blx-compat.def
+ tex/latex/biblatex/blx-dm.def
+ tex/latex/biblatex/blx-mcite.def
+ tex/latex/biblatex/blx-natbib.def
+ tex/latex/biblatex/cbx/alphabetic-verb.cbx
+ tex/latex/biblatex/cbx/alphabetic.cbx
+ tex/latex/biblatex/cbx/authortitle-comp.cbx
+ tex/latex/biblatex/cbx/authortitle-ibid.cbx
+ tex/latex/biblatex/cbx/authortitle-icomp.cbx
+ tex/latex/biblatex/cbx/authortitle-tcomp.cbx
+ tex/latex/biblatex/cbx/authortitle-terse.cbx
+ tex/latex/biblatex/cbx/authortitle-ticomp.cbx
+ tex/latex/biblatex/cbx/authortitle.cbx
+ tex/latex/biblatex/cbx/authoryear-comp.cbx
+ tex/latex/biblatex/cbx/authoryear-ibid.cbx
+ tex/latex/biblatex/cbx/authoryear-icomp.cbx
+ tex/latex/biblatex/cbx/authoryear.cbx
+ tex/latex/biblatex/cbx/debug.cbx
+ tex/latex/biblatex/cbx/draft.cbx
+ tex/latex/biblatex/cbx/numeric-comp.cbx
+ tex/latex/biblatex/cbx/numeric-verb.cbx
+ tex/latex/biblatex/cbx/numeric.cbx
+ tex/latex/biblatex/cbx/reading.cbx
+ tex/latex/biblatex/cbx/verbose-ibid.cbx
+ tex/latex/biblatex/cbx/verbose-inote.cbx
+ tex/latex/biblatex/cbx/verbose-note.cbx
+ tex/latex/biblatex/cbx/verbose-trad1.cbx
+ tex/latex/biblatex/cbx/verbose-trad2.cbx
+ tex/latex/biblatex/cbx/verbose-trad3.cbx
+ tex/latex/biblatex/cbx/verbose.cbx
+ tex/latex/biblatex/lbx/UKenglish.lbx
+ tex/latex/biblatex/lbx/USenglish.lbx
+ tex/latex/biblatex/lbx/american.lbx
+ tex/latex/biblatex/lbx/australian.lbx
+ tex/latex/biblatex/lbx/austrian.lbx
+ tex/latex/biblatex/lbx/brazil.lbx
+ tex/latex/biblatex/lbx/brazilian.lbx
+ tex/latex/biblatex/lbx/british.lbx
+ tex/latex/biblatex/lbx/canadian.lbx
+ tex/latex/biblatex/lbx/catalan.lbx
+ tex/latex/biblatex/lbx/croatian.lbx
+ tex/latex/biblatex/lbx/czech.lbx
+ tex/latex/biblatex/lbx/danish.lbx
+ tex/latex/biblatex/lbx/dutch.lbx
+ tex/latex/biblatex/lbx/english.lbx
+ tex/latex/biblatex/lbx/finnish.lbx
+ tex/latex/biblatex/lbx/french.lbx
+ tex/latex/biblatex/lbx/german.lbx
+ tex/latex/biblatex/lbx/greek.lbx
+ tex/latex/biblatex/lbx/icelandic.lbx
+ tex/latex/biblatex/lbx/italian.lbx
+ tex/latex/biblatex/lbx/naustrian.lbx
+ tex/latex/biblatex/lbx/newzealand.lbx
+ tex/latex/biblatex/lbx/ngerman.lbx
+ tex/latex/biblatex/lbx/norsk.lbx
+ tex/latex/biblatex/lbx/norwegian.lbx
+ tex/latex/biblatex/lbx/nynorsk.lbx
+ tex/latex/biblatex/lbx/polish.lbx
+ tex/latex/biblatex/lbx/portuges.lbx
+ tex/latex/biblatex/lbx/portuguese.lbx
+ tex/latex/biblatex/lbx/russian.lbx
+ tex/latex/biblatex/lbx/slovene.lbx
+ tex/latex/biblatex/lbx/spanish.lbx
+ tex/latex/biblatex/lbx/swedish.lbx
+catalogue-also translation-biblatex-de
+catalogue-ctan /macros/latex/contrib/biblatex
+catalogue-date 2016-03-06 10:06:05 +0100
+catalogue-license lppl
+catalogue-topics biblio biblatex
+catalogue-version 3.3
+
+name bigfoot
+category Package
+revision 38248
+shortdesc Footnotes for critical editions
+longdesc The package aims to provide a 'one-stop' solution to
+longdesc requirements for footnotes. It offers: Multiple footnote
+longdesc apparatus superior to that of manyfoot Footnotes can be
+longdesc formatted in separate paragraphs, or be run into a single
+longdesc paragraph (this choice may be selected per footnote series);
+longdesc Things you might have expected (such as \verb-like material in
+longdesc footnotes, and colour selections over page breaks) now work.
+longdesc Note that the majority of the bigfoot package's interface is
+longdesc identical to that of manyfoot; users should seek information
+longdesc from that package's documentation. The bigfoot bundle also
+longdesc provides the perpage and suffix packages.
+containersize 11372
+containermd5 f3472cd89ca587ff15245d84f4219bc0
+doccontainersize 736344
+doccontainermd5 3135cf14bf107cd05490416b2cfcaef9
+srccontainersize 43760
+srccontainermd5 71471c19ffe04183b0106dd2ba555123
+runfiles size=14
+ tex/latex/bigfoot/bigfoot.sty
+ tex/latex/bigfoot/perpage.sty
+ tex/latex/bigfoot/suffix.sty
+catalogue-ctan /macros/latex/contrib/bigfoot
+catalogue-date 2015-08-30 19:17:38 +0200
+catalogue-license gpl2
+catalogue-topics footnote
+catalogue-version 2.1
+
+name blindtext
+category Package
+revision 25039
+shortdesc Producing 'blind' text for testing.
+longdesc The package provides the commands \blindtext and \Blindtext for
+longdesc creating 'blind' text useful in testing new classes and
+longdesc packages, and \blinddocument, \Blinddocument for creating an
+longdesc entire random document with sections, lists, mathematics, etc.
+longdesc The package supports three languages, english, (n)german and
+longdesc latin; the latin option provides a short "lorem ipsum" (for a
+longdesc fuller lorem ipsum text, see the lipsum package).
+containersize 10496
+containermd5 79746da9b1219d649e608643d9c140a5
+doccontainersize 341176
+doccontainermd5 f2f7ca0b24540f8dd0f9cafc22114a15
+srccontainersize 17672
+srccontainermd5 65df8aed2dc1fffbf52f13a5f0ef14e5
+runfiles size=12
+ tex/latex/blindtext/blindtext.sty
+catalogue-ctan /macros/latex/contrib/blindtext
+catalogue-date 2012-03-12 20:01:10 +0100
+catalogue-license lppl
+catalogue-version 2.0
+
+name easylist
+category Package
+revision 32661
+shortdesc Lists using a single active character.
+longdesc This package allows you to create lists of numbered items (as
+longdesc in Wittgenstein's 'Tractatus') with a single active character
+longdesc as the only command. A variety of parameters are available to
+longdesc configure the appearance of the list; lists may be nested
+longdesc (effectively to unlimited depth).
+containersize 5852
+containermd5 f8b170a18a3298aa9a418af20578f41f
+doccontainersize 607192
+doccontainermd5 0b8864687533065619e2ecce88864283
+runfiles size=8
+ tex/latex/easylist/easylist.sty
+catalogue-ctan /macros/latex/contrib/easylist
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl
+catalogue-version 1.3
+
+name etoolbox
+category Package
+revision 38031
+shortdesc e-TeX tools for LaTeX
+longdesc The package is a toolbox of programming facilities geared
+longdesc primarily towards LaTeX class and package authors. It provides
+longdesc LaTeX frontends to some of the new primitives provided by e-TeX
+longdesc as well as some generic tools which are not strictly related to
+longdesc e-TeX but match the profile of this package. Note that the
+longdesc initial versions of this package were released under the name
+longdesc elatex. The package provides functions that seem to offer
+longdesc alternative ways of implementing some LaTeX kernel commands;
+longdesc nevertheless, the package will not modify any part of the LaTeX
+longdesc kernel.
+containersize 8036
+containermd5 d118fce761274d677c3774d8fa24f3b6
+doccontainersize 232140
+doccontainermd5 55c592f75bfe5acf59015cd84af79359
+runfiles size=12
+ tex/latex/etoolbox/etoolbox.def
+ tex/latex/etoolbox/etoolbox.sty
+catalogue-ctan /macros/latex/contrib/etoolbox
+catalogue-date 2015-08-03 06:47:20 +0200
+catalogue-license lppl1.3
+catalogue-topics macro-supp
+catalogue-version 2.2a
+
+name gb4e
+category Package
+revision 19216
+shortdesc Linguistic tools.
+longdesc Provides an environment for linguistic examples, tools for
+longdesc glosses, and various other goodies. The code was developed from
+longdesc the midnight and covington packages.
+containersize 6932
+containermd5 f15d8eddb91e5a6e768b1651f8b5120e
+doccontainersize 150476
+doccontainermd5 25df7c000b4b465c69c1a009a89eacb2
+runfiles size=6
+ tex/latex/gb4e/cgloss4e.sty
+ tex/latex/gb4e/gb4e.sty
+catalogue-ctan /macros/latex/contrib/gb4e
+catalogue-date 2012-02-10 18:22:03 +0100
+catalogue-license lppl1.2
+
+name hanging
+category Package
+revision 15878
+shortdesc Hanging paragraphs.
+longdesc The hanging package facilitates the typesetting of hanging
+longdesc paragraphs. The package also enables typesetting with hanging
+longdesc punctuation, by making punctuation characters active. This
+longdesc facility is best suppressed (it can interfere with other
+longdesc packages) -- there are package options for suppressing each
+longdesc individual punctuation character. 'Real' attempts at hanging
+longdesc punction should nowadays use the microtype package, which takes
+longdesc advantage of the support offered in recent versions of pdfTeX.
+containersize 1936
+containermd5 1ef6468b7e810b641fec0f7e90873e0f
+doccontainersize 145544
+doccontainermd5 f45b0855153783fa947d985eaaca9b50
+srccontainersize 7908
+srccontainermd5 a8bf9bb5a0aa1b1477cbc7735b8c5241
+runfiles size=2
+ tex/latex/hanging/hanging.sty
+catalogue-ctan /macros/latex/contrib/hanging
+catalogue-date 2013-09-30 14:43:32 +0200
+catalogue-license lppl1.3
+catalogue-version 1.2b
+
+name imakeidx
+category Package
+revision 40241
+shortdesc A package for producing multiple indexes
+longdesc The package enables the user to produce and typeset one or more
+longdesc indexes simultaneously with a document. The package is known to
+longdesc work in LaTeX documents processed with pdfLaTeX, XeLaTeX and
+longdesc LuaLaTeX. If makeindex is used for processing the index
+longdesc entries, no particular setting up is needed when TeX Live is
+longdesc used. Using xindy or other programs it is necessary to enable
+longdesc shell escape; shell escape is also needed if splitindex is
+longdesc used.
+containersize 4144
+containermd5 d5c01ac8cf6344a9de35891b900f031c
+doccontainersize 518180
+doccontainermd5 925c38a2fd433213fd031bace0ee6719
+srccontainersize 20428
+srccontainermd5 1b74c56f87fa0a9507876856afe92edf
+runfiles size=4
+ tex/latex/imakeidx/imakeidx.sty
+catalogue-ctan /macros/latex/contrib/imakeidx
+catalogue-date 2016-04-03 17:14:07 +0200
+catalogue-license lppl1.3
+catalogue-topics index
+catalogue-version 1.3b
+
+name logreq
+category Package
+revision 19640
+shortdesc Support for automation of the LaTeX workflow.
+longdesc The package helps to automate a typical LaTeX workflow that
+longdesc involves running LaTeX several times, running tools such as
+longdesc BibTeX or makeindex, and so on. It will log requests like
+longdesc "please rerun LaTeX" or "please run BibTeX on file X" to an
+longdesc external XML file which lists all open tasks in a machine-
+longdesc readable format. Compiler scripts and integrated LaTeX editing
+longdesc environments may parse this file to determine the next steps in
+longdesc the workflow in a way that is more efficient than parsing the
+longdesc main log file. In sum, the package will do two things: enable
+longdesc package authors to use LaTeX commands to issue requests,
+longdesc collect all requests from all packages and write them to an
+longdesc external XML file at the end of the document.
+containersize 3196
+containermd5 1d88db8f23916e47eb8b6b03c7d3e6aa
+doccontainersize 3792
+doccontainermd5 dac68e962368bc6cfa6fd311050e4ae5
+runfiles size=3
+ tex/latex/logreq/logreq.def
+ tex/latex/logreq/logreq.sty
+catalogue-ctan /macros/latex/contrib/logreq
+catalogue-date 2014-10-17 21:54:02 +0200
+catalogue-license lppl1.3
+catalogue-version 1.0
+
+name mwe
+category Package
+revision 26422
+shortdesc Packages and image files for MWEs.
+longdesc The bundle provides several files useful when creating a
+longdesc minimal working example (MWE). The package itself loads a small
+longdesc set of packages often used when creating MWEs. In addition, a
+longdesc range of images are provided, which will be installed in the
+longdesc TEXMF tree, so that they may be used in any (La)TeX document.
+longdesc This allows different users to share MWEs which include image
+longdesc commands, without the need to share image files or to use
+longdesc replacement code.
+containersize 687052
+containermd5 aa5297700a4eaef9923a4db4302ea5db
+doccontainersize 393380
+doccontainermd5 a52642c2ab1e50389ba83f8793df4c53
+srccontainersize 7144
+srccontainermd5 694fb6614883aa20c1a3aed597889c01
+runfiles size=443
+ tex/latex/mwe/example-grid-100x100bp.eps
+ tex/latex/mwe/example-grid-100x100bp.jpg
+ tex/latex/mwe/example-grid-100x100bp.pdf
+ tex/latex/mwe/example-grid-100x100bp.png
+ tex/latex/mwe/example-grid-100x100bp.tex
+ tex/latex/mwe/example-grid-100x100pt.eps
+ tex/latex/mwe/example-grid-100x100pt.jpg
+ tex/latex/mwe/example-grid-100x100pt.pdf
+ tex/latex/mwe/example-grid-100x100pt.png
+ tex/latex/mwe/example-grid-100x100pt.tex
+ tex/latex/mwe/example-image-10x16.eps
+ tex/latex/mwe/example-image-10x16.jpg
+ tex/latex/mwe/example-image-10x16.pdf
+ tex/latex/mwe/example-image-10x16.png
+ tex/latex/mwe/example-image-10x16.tex
+ tex/latex/mwe/example-image-16x10.eps
+ tex/latex/mwe/example-image-16x10.jpg
+ tex/latex/mwe/example-image-16x10.pdf
+ tex/latex/mwe/example-image-16x10.png
+ tex/latex/mwe/example-image-16x10.tex
+ tex/latex/mwe/example-image-16x9.eps
+ tex/latex/mwe/example-image-16x9.jpg
+ tex/latex/mwe/example-image-16x9.pdf
+ tex/latex/mwe/example-image-16x9.png
+ tex/latex/mwe/example-image-16x9.tex
+ tex/latex/mwe/example-image-1x1.eps
+ tex/latex/mwe/example-image-1x1.jpg
+ tex/latex/mwe/example-image-1x1.pdf
+ tex/latex/mwe/example-image-1x1.png
+ tex/latex/mwe/example-image-1x1.tex
+ tex/latex/mwe/example-image-4x3.eps
+ tex/latex/mwe/example-image-4x3.jpg
+ tex/latex/mwe/example-image-4x3.pdf
+ tex/latex/mwe/example-image-4x3.png
+ tex/latex/mwe/example-image-4x3.tex
+ tex/latex/mwe/example-image-9x16.eps
+ tex/latex/mwe/example-image-9x16.jpg
+ tex/latex/mwe/example-image-9x16.pdf
+ tex/latex/mwe/example-image-9x16.png
+ tex/latex/mwe/example-image-9x16.tex
+ tex/latex/mwe/example-image-a.eps
+ tex/latex/mwe/example-image-a.jpg
+ tex/latex/mwe/example-image-a.pdf
+ tex/latex/mwe/example-image-a.png
+ tex/latex/mwe/example-image-a.tex
+ tex/latex/mwe/example-image-a3-landscape.pdf
+ tex/latex/mwe/example-image-a3-landscape.tex
+ tex/latex/mwe/example-image-a3.pdf
+ tex/latex/mwe/example-image-a3.tex
+ tex/latex/mwe/example-image-a4-landscape.pdf
+ tex/latex/mwe/example-image-a4-landscape.tex
+ tex/latex/mwe/example-image-a4.pdf
+ tex/latex/mwe/example-image-a4.tex
+ tex/latex/mwe/example-image-a5-landscape.pdf
+ tex/latex/mwe/example-image-a5-landscape.tex
+ tex/latex/mwe/example-image-a5.pdf
+ tex/latex/mwe/example-image-a5.tex
+ tex/latex/mwe/example-image-b.eps
+ tex/latex/mwe/example-image-b.jpg
+ tex/latex/mwe/example-image-b.pdf
+ tex/latex/mwe/example-image-b.png
+ tex/latex/mwe/example-image-b.tex
+ tex/latex/mwe/example-image-c.eps
+ tex/latex/mwe/example-image-c.jpg
+ tex/latex/mwe/example-image-c.pdf
+ tex/latex/mwe/example-image-c.png
+ tex/latex/mwe/example-image-c.tex
+ tex/latex/mwe/example-image-golden-upright.pdf
+ tex/latex/mwe/example-image-golden-upright.tex
+ tex/latex/mwe/example-image-golden.pdf
+ tex/latex/mwe/example-image-golden.tex
+ tex/latex/mwe/example-image-letter-landscape.pdf
+ tex/latex/mwe/example-image-letter-landscape.tex
+ tex/latex/mwe/example-image-letter.pdf
+ tex/latex/mwe/example-image-letter.tex
+ tex/latex/mwe/example-image.eps
+ tex/latex/mwe/example-image.jpg
+ tex/latex/mwe/example-image.pdf
+ tex/latex/mwe/example-image.png
+ tex/latex/mwe/example-image.tex
+ tex/latex/mwe/mwe.sty
+catalogue-ctan /macros/latex/contrib/mwe
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl1.3
+catalogue-version 0.3
+
+name qtree
+category Package
+revision 15878
+shortdesc Draw tree structures.
+longdesc The package offers support for drawing tree diagrams, and is
+longdesc especially suitable for linguistics use. It allows trees to be
+longdesc specified in a simple bracket notation, automatically
+longdesc calculates branch sizes, and supports both DVI/PostScript and
+longdesc PDF output by use of pict2e facilities. The package is a
+longdesc development of the existing qobitree package, offering a new
+longdesc front end.
+containersize 8136
+containermd5 16cfdb9858d43d1cc10d6699ea57d3d7
+doccontainersize 209552
+doccontainermd5 b7f9dcbf0114eaa28829ba3e2a896541
+runfiles size=10
+ tex/latex/qtree/qtree.sty
+catalogue-ctan /macros/latex/contrib/qtree
+catalogue-date 2012-06-01 16:25:13 +0200
+catalogue-license lppl
+catalogue-version 3.1b
+
+name tipa
+category Package
+revision 29349
+shortdesc Fonts and macros for IPA phonetics characters.
+longdesc These fonts are considered the 'ultimate answer' to IPA
+longdesc typesetting. The encoding of these 8-bit fonts has been
+longdesc registered as LaTeX standard encoding T3, and the set of
+longdesc addendum symbols as encoding TS3. 'Times-like' Adobe Type 1
+longdesc versions are provided for both the T3 and the TS3 fonts.
+execute addMixedMap tipa.map
+containersize 2875756
+containermd5 45975f87ff894bc21c8a8fa59f3f00f9
+doccontainersize 2343388
+doccontainermd5 ef083bac55aa949089a12fccd074cd76
+runfiles size=1096
+ fonts/map/dvips/tipa/tipa.map
+ fonts/source/public/tipa/tipa.mf
+ fonts/source/public/tipa/tipa10.mf
+ fonts/source/public/tipa/tipa12.mf
+ fonts/source/public/tipa/tipa17.mf
+ fonts/source/public/tipa/tipa8.mf
+ fonts/source/public/tipa/tipa9.mf
+ fonts/source/public/tipa/tipab10.mf
+ fonts/source/public/tipa/tipabase.mf
+ fonts/source/public/tipa/tipabs10.mf
+ fonts/source/public/tipa/tipabx10.mf
+ fonts/source/public/tipa/tipabx12.mf
+ fonts/source/public/tipa/tipabx8.mf
+ fonts/source/public/tipa/tipabx9.mf
+ fonts/source/public/tipa/tipadiac.mf
+ fonts/source/public/tipa/tipaextr.mf
+ fonts/source/public/tipa/tipagerm.mf
+ fonts/source/public/tipa/tipanew.mf
+ fonts/source/public/tipa/tipapnct.mf
+ fonts/source/public/tipa/tipaprm.def
+ fonts/source/public/tipa/tiparoml.mf
+ fonts/source/public/tipa/tipasb10.mf
+ fonts/source/public/tipa/tipasc.mf
+ fonts/source/public/tipa/tipasi10.mf
+ fonts/source/public/tipa/tipasl10.mf
+ fonts/source/public/tipa/tipasl12.mf
+ fonts/source/public/tipa/tipasl8.mf
+ fonts/source/public/tipa/tipasl9.mf
+ fonts/source/public/tipa/tipass10.mf
+ fonts/source/public/tipa/tipass12.mf
+ fonts/source/public/tipa/tipass17.mf
+ fonts/source/public/tipa/tipass8.mf
+ fonts/source/public/tipa/tipass9.mf
+ fonts/source/public/tipa/tipasym1.mf
+ fonts/source/public/tipa/tipasym2.mf
+ fonts/source/public/tipa/tipasym3.mf
+ fonts/source/public/tipa/tipasym4.mf
+ fonts/source/public/tipa/tipatone.mf
+ fonts/source/public/tipa/tipatr.mf
+ fonts/source/public/tipa/tipats10.mf
+ fonts/source/public/tipa/tipatt10.mf
+ fonts/source/public/tipa/tipatt12.mf
+ fonts/source/public/tipa/tipatt8.mf
+ fonts/source/public/tipa/tipatt9.mf
+ fonts/source/public/tipa/tipx.mf
+ fonts/source/public/tipa/tipx10.mf
+ fonts/source/public/tipa/tipx12.mf
+ fonts/source/public/tipa/tipx17.mf
+ fonts/source/public/tipa/tipx8.mf
+ fonts/source/public/tipa/tipx9.mf
+ fonts/source/public/tipa/tipxb10.mf
+ fonts/source/public/tipa/tipxbs10.mf
+ fonts/source/public/tipa/tipxbx10.mf
+ fonts/source/public/tipa/tipxbx12.mf
+ fonts/source/public/tipa/tipxbx8.mf
+ fonts/source/public/tipa/tipxbx9.mf
+ fonts/source/public/tipa/tipxsb10.mf
+ fonts/source/public/tipa/tipxsi10.mf
+ fonts/source/public/tipa/tipxsl10.mf
+ fonts/source/public/tipa/tipxsl12.mf
+ fonts/source/public/tipa/tipxsl8.mf
+ fonts/source/public/tipa/tipxsl9.mf
+ fonts/source/public/tipa/tipxss10.mf
+ fonts/source/public/tipa/tipxss12.mf
+ fonts/source/public/tipa/tipxss17.mf
+ fonts/source/public/tipa/tipxss8.mf
+ fonts/source/public/tipa/tipxss9.mf
+ fonts/source/public/tipa/tipxts10.mf
+ fonts/source/public/tipa/tipxtt10.mf
+ fonts/source/public/tipa/tipxtt12.mf
+ fonts/source/public/tipa/tipxtt8.mf
+ fonts/source/public/tipa/tipxtt9.mf
+ fonts/source/public/tipa/xipa10.mf
+ fonts/source/public/tipa/xipab10.mf
+ fonts/source/public/tipa/xipabs10.mf
+ fonts/source/public/tipa/xipaprm.def
+ fonts/source/public/tipa/xipasb10.mf
+ fonts/source/public/tipa/xipasi10.mf
+ fonts/source/public/tipa/xipasl10.mf
+ fonts/source/public/tipa/xipass10.mf
+ fonts/source/public/tipa/xipx10.mf
+ fonts/source/public/tipa/xipxb10.mf
+ fonts/source/public/tipa/xipxbs10.mf
+ fonts/source/public/tipa/xipxsb10.mf
+ fonts/source/public/tipa/xipxsi10.mf
+ fonts/source/public/tipa/xipxsl10.mf
+ fonts/source/public/tipa/xipxss10.mf
+ fonts/tfm/public/tipa/tipa10.tfm
+ fonts/tfm/public/tipa/tipa12.tfm
+ fonts/tfm/public/tipa/tipa17.tfm
+ fonts/tfm/public/tipa/tipa8.tfm
+ fonts/tfm/public/tipa/tipa9.tfm
+ fonts/tfm/public/tipa/tipab10.tfm
+ fonts/tfm/public/tipa/tipabs10.tfm
+ fonts/tfm/public/tipa/tipabx10.tfm
+ fonts/tfm/public/tipa/tipabx12.tfm
+ fonts/tfm/public/tipa/tipabx8.tfm
+ fonts/tfm/public/tipa/tipabx9.tfm
+ fonts/tfm/public/tipa/tipasb10.tfm
+ fonts/tfm/public/tipa/tipasi10.tfm
+ fonts/tfm/public/tipa/tipasl10.tfm
+ fonts/tfm/public/tipa/tipasl12.tfm
+ fonts/tfm/public/tipa/tipasl8.tfm
+ fonts/tfm/public/tipa/tipasl9.tfm
+ fonts/tfm/public/tipa/tipass10.tfm
+ fonts/tfm/public/tipa/tipass12.tfm
+ fonts/tfm/public/tipa/tipass17.tfm
+ fonts/tfm/public/tipa/tipass8.tfm
+ fonts/tfm/public/tipa/tipass9.tfm
+ fonts/tfm/public/tipa/tipats10.tfm
+ fonts/tfm/public/tipa/tipatt10.tfm
+ fonts/tfm/public/tipa/tipatt12.tfm
+ fonts/tfm/public/tipa/tipatt8.tfm
+ fonts/tfm/public/tipa/tipatt9.tfm
+ fonts/tfm/public/tipa/tipx10.tfm
+ fonts/tfm/public/tipa/tipx12.tfm
+ fonts/tfm/public/tipa/tipx17.tfm
+ fonts/tfm/public/tipa/tipx8.tfm
+ fonts/tfm/public/tipa/tipx9.tfm
+ fonts/tfm/public/tipa/tipxb10.tfm
+ fonts/tfm/public/tipa/tipxbs10.tfm
+ fonts/tfm/public/tipa/tipxbx10.tfm
+ fonts/tfm/public/tipa/tipxbx12.tfm
+ fonts/tfm/public/tipa/tipxbx8.tfm
+ fonts/tfm/public/tipa/tipxbx9.tfm
+ fonts/tfm/public/tipa/tipxsb10.tfm
+ fonts/tfm/public/tipa/tipxsi10.tfm
+ fonts/tfm/public/tipa/tipxsl10.tfm
+ fonts/tfm/public/tipa/tipxsl12.tfm
+ fonts/tfm/public/tipa/tipxsl8.tfm
+ fonts/tfm/public/tipa/tipxsl9.tfm
+ fonts/tfm/public/tipa/tipxss10.tfm
+ fonts/tfm/public/tipa/tipxss12.tfm
+ fonts/tfm/public/tipa/tipxss17.tfm
+ fonts/tfm/public/tipa/tipxss8.tfm
+ fonts/tfm/public/tipa/tipxss9.tfm
+ fonts/tfm/public/tipa/tipxts10.tfm
+ fonts/tfm/public/tipa/tipxtt10.tfm
+ fonts/tfm/public/tipa/tipxtt12.tfm
+ fonts/tfm/public/tipa/tipxtt8.tfm
+ fonts/tfm/public/tipa/tipxtt9.tfm
+ fonts/tfm/public/tipa/xipa10.tfm
+ fonts/tfm/public/tipa/xipab10.tfm
+ fonts/tfm/public/tipa/xipabs10.tfm
+ fonts/tfm/public/tipa/xipasb10.tfm
+ fonts/tfm/public/tipa/xipasi10.tfm
+ fonts/tfm/public/tipa/xipasl10.tfm
+ fonts/tfm/public/tipa/xipass10.tfm
+ fonts/tfm/public/tipa/xipx10.tfm
+ fonts/tfm/public/tipa/xipxb10.tfm
+ fonts/tfm/public/tipa/xipxbs10.tfm
+ fonts/tfm/public/tipa/xipxsb10.tfm
+ fonts/tfm/public/tipa/xipxsi10.tfm
+ fonts/tfm/public/tipa/xipxsl10.tfm
+ fonts/tfm/public/tipa/xipxss10.tfm
+ fonts/type1/public/tipa/tipa10.pfb
+ fonts/type1/public/tipa/tipa12.pfb
+ fonts/type1/public/tipa/tipa17.pfb
+ fonts/type1/public/tipa/tipa8.pfb
+ fonts/type1/public/tipa/tipa9.pfb
+ fonts/type1/public/tipa/tipab10.pfb
+ fonts/type1/public/tipa/tipabs10.pfb
+ fonts/type1/public/tipa/tipabx10.pfb
+ fonts/type1/public/tipa/tipabx12.pfb
+ fonts/type1/public/tipa/tipabx8.pfb
+ fonts/type1/public/tipa/tipabx9.pfb
+ fonts/type1/public/tipa/tipasb10.pfb
+ fonts/type1/public/tipa/tipasi10.pfb
+ fonts/type1/public/tipa/tipasl10.pfb
+ fonts/type1/public/tipa/tipasl12.pfb
+ fonts/type1/public/tipa/tipasl8.pfb
+ fonts/type1/public/tipa/tipasl9.pfb
+ fonts/type1/public/tipa/tipass10.pfb
+ fonts/type1/public/tipa/tipass12.pfb
+ fonts/type1/public/tipa/tipass17.pfb
+ fonts/type1/public/tipa/tipass8.pfb
+ fonts/type1/public/tipa/tipass9.pfb
+ fonts/type1/public/tipa/tipats10.pfb
+ fonts/type1/public/tipa/tipatt10.pfb
+ fonts/type1/public/tipa/tipatt12.pfb
+ fonts/type1/public/tipa/tipatt8.pfb
+ fonts/type1/public/tipa/tipatt9.pfb
+ fonts/type1/public/tipa/tipx10.pfb
+ fonts/type1/public/tipa/tipx12.pfb
+ fonts/type1/public/tipa/tipx17.pfb
+ fonts/type1/public/tipa/tipx8.pfb
+ fonts/type1/public/tipa/tipx9.pfb
+ fonts/type1/public/tipa/tipxb10.pfb
+ fonts/type1/public/tipa/tipxbs10.pfb
+ fonts/type1/public/tipa/tipxbx10.pfb
+ fonts/type1/public/tipa/tipxbx12.pfb
+ fonts/type1/public/tipa/tipxbx8.pfb
+ fonts/type1/public/tipa/tipxbx9.pfb
+ fonts/type1/public/tipa/tipxsb10.pfb
+ fonts/type1/public/tipa/tipxsi10.pfb
+ fonts/type1/public/tipa/tipxsl10.pfb
+ fonts/type1/public/tipa/tipxsl12.pfb
+ fonts/type1/public/tipa/tipxsl8.pfb
+ fonts/type1/public/tipa/tipxsl9.pfb
+ fonts/type1/public/tipa/tipxss10.pfb
+ fonts/type1/public/tipa/tipxss12.pfb
+ fonts/type1/public/tipa/tipxss17.pfb
+ fonts/type1/public/tipa/tipxss8.pfb
+ fonts/type1/public/tipa/tipxss9.pfb
+ fonts/type1/public/tipa/tipxts10.pfb
+ fonts/type1/public/tipa/tipxtt10.pfb
+ fonts/type1/public/tipa/tipxtt12.pfb
+ fonts/type1/public/tipa/tipxtt8.pfb
+ fonts/type1/public/tipa/tipxtt9.pfb
+ fonts/type1/public/tipa/xipa10.pfb
+ fonts/type1/public/tipa/xipab10.pfb
+ fonts/type1/public/tipa/xipabs10.pfb
+ fonts/type1/public/tipa/xipasb10.pfb
+ fonts/type1/public/tipa/xipasi10.pfb
+ fonts/type1/public/tipa/xipasl10.pfb
+ fonts/type1/public/tipa/xipass10.pfb
+ fonts/type1/public/tipa/xipx10.pfb
+ fonts/type1/public/tipa/xipxb10.pfb
+ fonts/type1/public/tipa/xipxbs10.pfb
+ fonts/type1/public/tipa/xipxsb10.pfb
+ fonts/type1/public/tipa/xipxsi10.pfb
+ fonts/type1/public/tipa/xipxsl10.pfb
+ fonts/type1/public/tipa/xipxss10.pfb
+ tex/latex/tipa/exaccent.sty
+ tex/latex/tipa/extraipa.sty
+ tex/latex/tipa/t3cmr.fd
+ tex/latex/tipa/t3cmss.fd
+ tex/latex/tipa/t3cmtt.fd
+ tex/latex/tipa/t3enc.def
+ tex/latex/tipa/t3phv.fd
+ tex/latex/tipa/t3ptm.fd
+ tex/latex/tipa/tipa.sty
+ tex/latex/tipa/tipx.sty
+ tex/latex/tipa/tone.sty
+ tex/latex/tipa/ts3cmr.fd
+ tex/latex/tipa/ts3cmss.fd
+ tex/latex/tipa/ts3cmtt.fd
+ tex/latex/tipa/ts3enc.def
+ tex/latex/tipa/ts3phv.fd
+ tex/latex/tipa/ts3ptm.fd
+ tex/latex/tipa/utipx.fd
+ tex/latex/tipa/utipxss.fd
+ tex/latex/tipa/utipxtt.fd
+ tex/latex/tipa/uxipx.fd
+ tex/latex/tipa/uxipxss.fd
+ tex/latex/tipa/vowel.sty
+catalogue-ctan /fonts/tipa/tipa
+catalogue-date 2014-05-31 17:44:05 +0200
+catalogue-license lppl
+catalogue-version 1.3
+
+name tocloft
+category Package
+revision 30209
+shortdesc Control table of contents, figures, etc.
+longdesc Provides control over the typography of the Table of Contents,
+longdesc List of Figures and List of Tables, and the ability to create
+longdesc new 'List of ...'. The ToC \parskip may be changed.
+containersize 5784
+containermd5 a71dad916a45e69de24657c1c5e7e701
+doccontainersize 448384
+doccontainermd5 f71d12a9139d848dbae2bae756a47743
+srccontainersize 28072
+srccontainermd5 21d8bedd8da7bf5859498ebe6f326adc
+runfiles size=9
+ tex/latex/tocloft/tocloft.sty
+catalogue-ctan /macros/latex/contrib/tocloft
+catalogue-date 2015-01-18 12:33:42 +0100
+catalogue-license lppl1.3
+catalogue-version 2.3f
+
+name xpatch
+category Package
+revision 27897
+shortdesc Extending etoolbox patching commands.
+longdesc The package generalises the macro patching commands provided by
+longdesc Philipp Lehmann's etoolbox.
+containersize 1936
+containermd5 144b908757965f15529c1fab732805de
+doccontainersize 450388
+doccontainermd5 f578f0d1615a525abcb1e24d8e7bc1ff
+srccontainersize 7496
+srccontainermd5 0a45526c0cd65b080855de64c394a767
+runfiles size=3
+ tex/latex/xpatch/xpatch.sty
+catalogue-ctan /macros/latex/contrib/xpatch
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl1.3
+catalogue-version 0.2
+

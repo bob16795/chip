@@ -1,0 +1,23 @@
+name bbding
+category Package
+revision 17186
+shortdesc A symbol (dingbat) font and LaTeX macros for its use.
+longdesc A symbol font (distributed as Metafont source) that contains
+longdesc many of the symbols of the Zapf dingbats set, together with an
+longdesc NFSS interface for using the font. An Adobe Type 1 version of
+longdesc the fonts is available in the niceframe fonts bundle.
+containersize 11668
+containermd5 b0bd738d1c9181469147322b6fde4e12
+doccontainersize 437588
+doccontainermd5 9cc43230fca5178b9688b64046256754
+srccontainersize 10156
+srccontainermd5 3ecf18b7ed35e34c5533e3eb4ea3e23e
+runfiles size=24
+ fonts/source/public/bbding/bbding10.mf
+ fonts/tfm/public/bbding/bbding10.tfm
+ tex/latex/bbding/Uding.fd
+ tex/latex/bbding/bbding.sty
+catalogue-ctan /fonts/bbding
+catalogue-date 2014-04-06 17:50:10 +0200
+catalogue-license lppl
+catalogue-version 1.01

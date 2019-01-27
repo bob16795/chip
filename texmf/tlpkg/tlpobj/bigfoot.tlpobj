@@ -1,0 +1,30 @@
+name bigfoot
+category Package
+revision 38248
+shortdesc Footnotes for critical editions
+longdesc The package aims to provide a 'one-stop' solution to
+longdesc requirements for footnotes. It offers: Multiple footnote
+longdesc apparatus superior to that of manyfoot Footnotes can be
+longdesc formatted in separate paragraphs, or be run into a single
+longdesc paragraph (this choice may be selected per footnote series);
+longdesc Things you might have expected (such as \verb-like material in
+longdesc footnotes, and colour selections over page breaks) now work.
+longdesc Note that the majority of the bigfoot package's interface is
+longdesc identical to that of manyfoot; users should seek information
+longdesc from that package's documentation. The bigfoot bundle also
+longdesc provides the perpage and suffix packages.
+containersize 11372
+containermd5 f3472cd89ca587ff15245d84f4219bc0
+doccontainersize 736344
+doccontainermd5 3135cf14bf107cd05490416b2cfcaef9
+srccontainersize 43760
+srccontainermd5 71471c19ffe04183b0106dd2ba555123
+runfiles size=14
+ tex/latex/bigfoot/bigfoot.sty
+ tex/latex/bigfoot/perpage.sty
+ tex/latex/bigfoot/suffix.sty
+catalogue-ctan /macros/latex/contrib/bigfoot
+catalogue-date 2015-08-30 19:17:38 +0200
+catalogue-license gpl2
+catalogue-topics footnote
+catalogue-version 2.1

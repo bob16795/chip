@@ -1,0 +1,18 @@
+name xpatch
+category Package
+revision 27897
+shortdesc Extending etoolbox patching commands.
+longdesc The package generalises the macro patching commands provided by
+longdesc Philipp Lehmann's etoolbox.
+containersize 1936
+containermd5 144b908757965f15529c1fab732805de
+doccontainersize 450388
+doccontainermd5 f578f0d1615a525abcb1e24d8e7bc1ff
+srccontainersize 7496
+srccontainermd5 0a45526c0cd65b080855de64c394a767
+runfiles size=3
+ tex/latex/xpatch/xpatch.sty
+catalogue-ctan /macros/latex/contrib/xpatch
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl1.3
+catalogue-version 0.2

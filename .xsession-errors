@@ -1,0 +1,73 @@
+Xsession: X session started for chip at Sun Jan 27 12:28:26 UTC 2019
+localuser:chip being added to access control list
+/home/chip/scr/dwm_launch.sh: line 4: jgmenu: command not found
+warning: no locale support
+no locale support
+sh: line 0: cd: /home/chip/.dwm: No such file or directory
+sh: ./autostart_blocking.sh: No such file or directory
+sh: line 0: cd: /home/chip/.dwm: No such file or directory
+sh: ./autostart.sh: No such file or directory
+child terminated due to signal 1
+child terminated due to signal 1
+child terminated due to signal 1
+child terminated due to signal 1
+child terminated due to signal 1
+child terminated due to signal 1
+warning: no locale support
+warning: no locale support
+cfg
+cld
+cod
+doc
+dsk
+dwn
+fon
+scientifica
+scr
+snd
+texmf
+tmp
+warning: no locale support
+gawk: cmd. line:19: (FILENAME=- FNR=1) fatal: division by zero attempted
+child terminated due to signal 1
+warning: no locale support
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 895 requests (895 known processed) with 0 events remaining.
+warning: no locale support
+warning: no locale support
+child terminated due to signal 1
+warning: no locale support
+
+(firefox:6950): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+warning: no locale support
+warning: no locale support
+console.error: 
+  Corrupt session file (invalid JSON found) 
+  Message: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+  Stack:
+    SessionFileInternal.read<@resource://app/modules/sessionstore/SessionFile.jsm:217:22
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:1
+
+  SessionFileInternal.read<@resource://app/modules/sessionstore/SessionFile.jsm:217:22
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:1
+
+1548616470023	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+warning: no locale support
+child terminated due to signal 1
+erresc: unknown private set/reset mode 1005
+child terminated due to signal 1
+erresc: unknown private set/reset mode 1005
+erresc: unknown private set/reset mode 1005
+child terminated due to signal 1
+1548617238049	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+1548617238760	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/addons/AddonUpdateChecker.jsm :: getRequiredProperty :: line 466"  data: no] Stack trace: getRequiredProperty()@resource://gre/modules/addons/AddonUpdateChecker.jsm:466 < parseJSONManifest()@resource://gre/modules/addons/AddonUpdateChecker.jsm:476 < UpdateParser.prototype.onLoad/parser()@resource://gre/modules/addons/AddonUpdateChecker.jsm:647 < UpdateParser.prototype.onLoad()@resource://gre/modules/addons/AddonUpdateChecker.jsm:667 < UpdateParser/<()@resource://gre/modules/addons/AddonUpdateChecker.jsm:585
+1548617238960	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/addons/AddonUpdateChecker.jsm :: getRequiredProperty :: line 466"  data: no] Stack trace: getRequiredProperty()@resource://gre/modules/addons/AddonUpdateChecker.jsm:466 < parseJSONManifest()@resource://gre/modules/addons/AddonUpdateChecker.jsm:476 < UpdateParser.prototype.onLoad/parser()@resource://gre/modules/addons/AddonUpdateChecker.jsm:647 < UpdateParser.prototype.onLoad()@resource://gre/modules/addons/AddonUpdateChecker.jsm:667 < UpdateParser/<()@resource://gre/modules/addons/AddonUpdateChecker.jsm:585
+child terminated due to signal 1
+child terminated due to signal 1

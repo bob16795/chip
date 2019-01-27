@@ -1,0 +1,23 @@
+name arydshln
+category Package
+revision 40087
+shortdesc Draw dash-lines in array/tabular
+longdesc Definitions of horizontal and vertical dashed lines for the
+longdesc array and tabular environment. Horizontal lines are drawn by
+longdesc \hdashline and \cdashline while vertical ones can be specified
+longdesc as a part of preamble using ':'. The shape of dashed lines may
+longdesc be controlled through style parameters or optional arguments.
+longdesc The package is compatible with array and colortab.
+containersize 9216
+containermd5 8c6c4f962e681473394e379f8a911be8
+doccontainersize 832504
+doccontainermd5 52039d2aac24bb22c8987c8d5d634cac
+srccontainersize 51500
+srccontainermd5 fba135ec95c7d0a2b962c92cb87c1328
+runfiles size=12
+ tex/latex/arydshln/arydshln.sty
+catalogue-ctan /macros/latex/contrib/arydshln
+catalogue-date 2016-03-20 10:40:58 +0100
+catalogue-license lppl1
+catalogue-topics alignment-supp
+catalogue-version 1.72

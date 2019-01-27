@@ -1,0 +1,2 @@
+nmap . :
+set number relativenumber
